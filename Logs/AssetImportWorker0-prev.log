@@ -1,0 +1,758 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'zh' Physical Memory: 12091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cheny/Documents/Unity/scene test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56769
+Successfully changed project path to: C:/Users/cheny/Documents/Unity/scene test
+C:/Users/cheny/Documents/Unity/scene test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 95.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cheny/Documents/Unity/scene test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   
+    VRAM:     4027 MB
+    Driver:   30.0.14.9733
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004291 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 117.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004579 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.199 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 5.096800 ms (FindLiveObjects: 0.132400 ms CreateObjectMapping: 0.056200 ms MarkObjects: 4.654500 ms  DeleteObjects: 0.251500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Polygon Pirates/Scenes/Demo_Main.unity
+  artifactKey: Guid(bfa5d56a0eb50f04ba05cb6891c91214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Scenes/Demo_Main.unity using Guid(bfa5d56a0eb50f04ba05cb6891c91214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f347951a7336148223aff961739134bc') in 0.023032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1184.034464 seconds.
+  path: Assets/Polygon Pirates/Scenes
+  artifactKey: Guid(cfeb79e110db9724ebd8bf141821fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Scenes using Guid(cfeb79e110db9724ebd8bf141821fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06239feffc997ed2e9e1189c69c2bc9') in 0.023908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.927736 seconds.
+  path: Assets/Polygon Pirates/Prefabs
+  artifactKey: Guid(5de4774a5a39bf7459143b5a41040370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs using Guid(5de4774a5a39bf7459143b5a41040370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb52113792effaf5af1177d15c65f7b6') in 0.011084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114490 seconds.
+  path: Assets/Polygon Pirates/Prefabs/SkyDome.prefab
+  artifactKey: Guid(d0223f77114284b47a0e8b317e71e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/SkyDome.prefab using Guid(d0223f77114284b47a0e8b317e71e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35857677408c92b9c149a22ba7756a23') in 0.117039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.324619 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons
+  artifactKey: Guid(6ba928e2ba8e7464fbac233ef4add893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons using Guid(6ba928e2ba8e7464fbac233ef4add893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f3b370ae8adcc985b42c1cf7d98b17') in 0.036372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.862395 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Axe_01.prefab
+  artifactKey: Guid(d5073af628fcad643916d0b42aefc3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Axe_01.prefab using Guid(d5073af628fcad643916d0b42aefc3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f046a4bb3aee6b500537e7327d94a37') in 0.093024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_02_Separate.prefab
+  artifactKey: Guid(6841562d5f5c23941a92f831a607600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_02_Separate.prefab using Guid(6841562d5f5c23941a92f831a607600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab267619381e621b84e6d0a3a2c2479') in 0.024142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_05.prefab
+  artifactKey: Guid(4261eebf0440a6b489aa7d4ce834ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_05.prefab using Guid(4261eebf0440a6b489aa7d4ce834ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f7b334992740801e0c50f03951ebdd') in 0.023145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Dagger_02.prefab
+  artifactKey: Guid(d43f2bfa2a48a5c4286141c62a64a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Dagger_02.prefab using Guid(d43f2bfa2a48a5c4286141c62a64a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048d44c87f9cd8e4f861c5e66c0270a8') in 0.021389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_02.prefab
+  artifactKey: Guid(95e52cd5f55fdfa49abb0eb942d2fa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_02.prefab using Guid(95e52cd5f55fdfa49abb0eb942d2fa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a70fc86331c18b811409287b56939f0') in 0.020877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_02.prefab
+  artifactKey: Guid(9adbe53aacf5f6d4491b67bb5f2a5166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_02.prefab using Guid(9adbe53aacf5f6d4491b67bb5f2a5166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715025ebdda9ca558e63769f67adfdf9') in 0.024032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_01.prefab
+  artifactKey: Guid(585b903caa4df504d855f8d5a7080dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_01.prefab using Guid(585b903caa4df504d855f8d5a7080dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e1f565048b39c8d92283e0d65cad74') in 0.021331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_01_Separate.prefab
+  artifactKey: Guid(f6c00e695acbb8840a1c89ae0a7c750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_01_Separate.prefab using Guid(f6c00e695acbb8840a1c89ae0a7c750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a13635dac15aa36ecb04d221492c63') in 0.022847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Shortsword_01.prefab
+  artifactKey: Guid(662136e9e9c510e4385455e701010fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Shortsword_01.prefab using Guid(662136e9e9c510e4385455e701010fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca80875f23ef1a40088ed8a8bb55632') in 0.132675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Shortsword_01_Sheath.prefab
+  artifactKey: Guid(d2799179d41b5244ea961abe78659f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Shortsword_01_Sheath.prefab using Guid(d2799179d41b5244ea961abe78659f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa04d4e98ce13e808a175874dd89257') in 0.030869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_02.prefab
+  artifactKey: Guid(f307c758f9f292242bdcae726ecbe722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_02.prefab using Guid(f307c758f9f292242bdcae726ecbe722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceadcbeee93159fd091a56691269a4d') in 0.030885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_DoubleBarrel_01_Separate.prefab
+  artifactKey: Guid(34fdda6b27540c4418aff07770b61717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_DoubleBarrel_01_Separate.prefab using Guid(34fdda6b27540c4418aff07770b61717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe41b3a4368439e07110b5398261005') in 0.024362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Wooden_01.prefab
+  artifactKey: Guid(88cad391572f7d34786693ed8ce99195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Wooden_01.prefab using Guid(88cad391572f7d34786693ed8ce99195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5305676a10fd472dd65a0fc1af255d9a') in 0.032728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_01.prefab
+  artifactKey: Guid(6e20f0d3eb67ca04c86f350bf30bc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_01.prefab using Guid(6e20f0d3eb67ca04c86f350bf30bc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036ec04d4dc83a2d538eabaeb315bdc6') in 0.030660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Dagger_01.prefab
+  artifactKey: Guid(35eb5f7f35ca8e54889c663db5ee4520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Dagger_01.prefab using Guid(35eb5f7f35ca8e54889c663db5ee4520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf92d2c791b16c20c2bfe4be74f9314') in 0.030035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_03_Separate.prefab
+  artifactKey: Guid(b0601962ad2766f46908d123128acb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_03_Separate.prefab using Guid(b0601962ad2766f46908d123128acb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d0f04f66ffeb4857512323cf9e204b') in 0.028968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_04.prefab
+  artifactKey: Guid(29b9f54949a9953499c792913fbfa1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_04.prefab using Guid(29b9f54949a9953499c792913fbfa1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8391bc9034640328c19bb3bb55e62b') in 0.028203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_01.prefab
+  artifactKey: Guid(2c8aba36d65d32246bd774695ebc41a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_01.prefab using Guid(2c8aba36d65d32246bd774695ebc41a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb9ef3f1339ab334cebd36f2cc47a3d') in 0.028696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_01.prefab
+  artifactKey: Guid(29706bab6f351e64982fca9af5aa9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_01.prefab using Guid(29706bab6f351e64982fca9af5aa9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37a991742a655c954858db49c5fb35f') in 0.029631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_02.prefab
+  artifactKey: Guid(253766d71815aa24d884ed3cf0e6eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_02.prefab using Guid(253766d71815aa24d884ed3cf0e6eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5d04450ffbe04a56162acd270ad3e0') in 0.027262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Dagger_01_Sheath.prefab
+  artifactKey: Guid(5585ff8735fd16f4a855a7d2a4c264e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Dagger_01_Sheath.prefab using Guid(5585ff8735fd16f4a855a7d2a4c264e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1f0c539518011c78f2c755cca34a2b') in 0.027191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rifle_DoubleBarrel_01.prefab
+  artifactKey: Guid(b65854583d108d44bbe0fe305a769cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rifle_DoubleBarrel_01.prefab using Guid(b65854583d108d44bbe0fe305a769cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36140eb81e9b9b1f87185f975904098f') in 0.027990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Broken_01.prefab
+  artifactKey: Guid(c807682e6de745747ad7c546fd2d3517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Broken_01.prefab using Guid(c807682e6de745747ad7c546fd2d3517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a35ebb83c875cc17bafcf054621272') in 0.028756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_05_Separate.prefab
+  artifactKey: Guid(fbf598fed60893d409ef4136fc805306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_05_Separate.prefab using Guid(fbf598fed60893d409ef4136fc805306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f400f6a6aa3f64a631a67318ac1dd2b1') in 0.028423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_02.prefab
+  artifactKey: Guid(33cbf006e792b9b479144b63005b8626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_02.prefab using Guid(33cbf006e792b9b479144b63005b8626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a3674389de71327340923cc716b755') in 0.026856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_02_Separate.prefab
+  artifactKey: Guid(e69e16aaf6b57334682cd67950d59df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_02_Separate.prefab using Guid(e69e16aaf6b57334682cd67950d59df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4f5855c1f936beaa481d6d05f14f03') in 0.028431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_DoubleBarrel_01.prefab
+  artifactKey: Guid(d279b87d89327b749b477d29b966fd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Pistol_DoubleBarrel_01.prefab using Guid(d279b87d89327b749b477d29b966fd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59462194d185d36a6b4acaed1ca5ec50') in 0.029226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Shortsword_02.prefab
+  artifactKey: Guid(2257b8e9e5285ef4dbf2d3cecab0309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Shortsword_02.prefab using Guid(2257b8e9e5285ef4dbf2d3cecab0309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a866b6d6bea2073dfe21b234fa55e75a') in 0.028757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_01_Separate.prefab
+  artifactKey: Guid(7a2bd86e5fbe5614cbf6c3d2edcd89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_01_Separate.prefab using Guid(7a2bd86e5fbe5614cbf6c3d2edcd89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f977292d913457020d613083998341') in 0.025743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rifle_01.prefab
+  artifactKey: Guid(d70905084a649974b946c56d8431d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rifle_01.prefab using Guid(d70905084a649974b946c56d8431d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec07b46e0ecd5353496b1429c5d5ded4') in 0.034426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rapier_01_Sheath.prefab
+  artifactKey: Guid(e5f807065ec752341b7d4c3999fd6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rapier_01_Sheath.prefab using Guid(e5f807065ec752341b7d4c3999fd6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd080577780d3ff1722e411951322b81') in 0.030908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_05.prefab
+  artifactKey: Guid(a2d1d373f89e9b54291dd8ca4706e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_05.prefab using Guid(a2d1d373f89e9b54291dd8ca4706e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6836a0240fe02837c7240687972779ee') in 0.035217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_01_Separate.prefab
+  artifactKey: Guid(6d8e16f52dd03e24492e6f6e5435bd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_01_Separate.prefab using Guid(6d8e16f52dd03e24492e6f6e5435bd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28317cf25294dec4219cd9084ecb8e0') in 0.029718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_03.prefab
+  artifactKey: Guid(622fc8383c73fb04bbc9754dd1899041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_03.prefab using Guid(622fc8383c73fb04bbc9754dd1899041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9181105da7b7b16af129382024dd28ac') in 0.029798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_04_Separate.prefab
+  artifactKey: Guid(7b27eab680b1fbb449f08de89301c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_04_Separate.prefab using Guid(7b27eab680b1fbb449f08de89301c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f12a246be2c015ea3c4a2795a58ee3d') in 0.032427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Sabre_02_Sheath.prefab
+  artifactKey: Guid(7c18ba5bc74bfce4e8fb37b884a42e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Sabre_02_Sheath.prefab using Guid(7c18ba5bc74bfce4e8fb37b884a42e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f4b9bb9572efc46928c9962d348820') in 0.029531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_02_Sheath.prefab
+  artifactKey: Guid(eee0924d40d816742a527fee3153e493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_02_Sheath.prefab using Guid(eee0924d40d816742a527fee3153e493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f4b84ee672d6c90a64c009b4c6ccbc') in 0.412628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rapier_01.prefab
+  artifactKey: Guid(b32c6b4eae614e846bbaea9b1cf32b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rapier_01.prefab using Guid(b32c6b4eae614e846bbaea9b1cf32b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a1af1c16297243a48af8acc1a91a9c') in 0.028023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Sabre_01.prefab
+  artifactKey: Guid(77e41f978f73ea44d8f28cac5e44b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Sabre_01.prefab using Guid(77e41f978f73ea44d8f28cac5e44b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0164cc1a7aac1559e38aa37605b092f') in 0.028521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_01.prefab
+  artifactKey: Guid(38a5a111ef2259e4ea7ab86844830372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_BlunderBuss_01.prefab using Guid(38a5a111ef2259e4ea7ab86844830372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f068dd09baa24069adbdb3d1591c41') in 0.040379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_03_Sheath.prefab
+  artifactKey: Guid(463e7a6ed7d74d5478bd5a3c2daa6ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_03_Sheath.prefab using Guid(463e7a6ed7d74d5478bd5a3c2daa6ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5e586e69d647685fbfba79f801a46') in 0.039697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Sabre_02.prefab
+  artifactKey: Guid(bb885bdbf06a44d49ab7813038fa9518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Sabre_02.prefab using Guid(bb885bdbf06a44d49ab7813038fa9518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49047aedda17e16449619286fa746d3f') in 0.027957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Boarding_Spear_01.prefab
+  artifactKey: Guid(32789634d30e42c47bfb5eb47db85a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Boarding_Spear_01.prefab using Guid(32789634d30e42c47bfb5eb47db85a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d616699a5fa5da27edc74a531f816f') in 0.032142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_03.prefab
+  artifactKey: Guid(396383f0ca648f24ba78772065411234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_03.prefab using Guid(396383f0ca648f24ba78772065411234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2471bbf485ba6bb3a65fe5785e117ea') in 0.030027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_02_Separate.prefab
+  artifactKey: Guid(7b1a9f9665b66274f95bcd6a00537783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_MusketPistol_DoubleBarrel_02_Separate.prefab using Guid(7b1a9f9665b66274f95bcd6a00537783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6632b26866e8015dc840e5d98727401f') in 0.027711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rifle_DoubleBarrel_01_Separate.prefab
+  artifactKey: Guid(39967adf9c642c9409b734c109b4d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Rifle_DoubleBarrel_01_Separate.prefab using Guid(39967adf9c642c9409b734c109b4d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0691b997a06cba0e7cef0817a741452e') in 0.026516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_04.prefab
+  artifactKey: Guid(a5dd16602a9deb242a29655a3728e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Weapons/SM_Wep_Cutlass_04.prefab using Guid(a5dd16602a9deb242a29655a3728e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ea3b09f1ed1f2aa1cba89b730ec0ab') in 0.030289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.492351 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles
+  artifactKey: Guid(f9acdd90f089ab74c8407e4aa428279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles using Guid(f9acdd90f089ab74c8407e4aa428279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8484a753b40d5c0c1f6697aa48119e56') in 0.006551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111126 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_British_01.prefab
+  artifactKey: Guid(9976885bd41aa534192c9d2fe06beea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_British_01.prefab using Guid(9976885bd41aa534192c9d2fe06beea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62decf20e8a0c0d984ba26a66c16a28e') in 0.027928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_01.prefab
+  artifactKey: Guid(4dd63217c105a2d43b24bf5f1b5622c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_01.prefab using Guid(4dd63217c105a2d43b24bf5f1b5622c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200fc7d3f22e508e6db3831cff7f6759') in 0.018907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull.prefab
+  artifactKey: Guid(0254fc5d92c4fc049b7ffc176526b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull.prefab using Guid(0254fc5d92c4fc049b7ffc176526b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa178d1d8e7e16219ced2605ce115d72') in 0.015828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(12a71185513d5a548a19c15f526c6938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull_Pirate_Attachments.prefab using Guid(12a71185513d5a548a19c15f526c6938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db2833847407f10dcc253d184ec51d5') in 0.020191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(546543ec887821441bb4deff0e363c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments.prefab using Guid(546543ec887821441bb4deff0e363c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e53ebab965df80a1b92f3eb5e5d1b0') in 0.042164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Gun_01_Pirate.prefab
+  artifactKey: Guid(8366d4254621ee142804ee460119165f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Gun_01_Pirate.prefab using Guid(8366d4254621ee142804ee460119165f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96f06c0b1013fe2e1a15dc752bedcdb') in 0.023966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Cargo_01.prefab
+  artifactKey: Guid(c7224b25068734a4ea03c6c557fe0d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Cargo_01.prefab using Guid(c7224b25068734a4ea03c6c557fe0d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b424f0738994780ef175c0f25f300b6a') in 0.020201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Attachments.prefab
+  artifactKey: Guid(00527f6e18debd843a66aba9400c8c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Attachments.prefab using Guid(00527f6e18debd843a66aba9400c8c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4015aa3fe9727450bd8b46d317314539') in 0.033533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Gun_01.prefab
+  artifactKey: Guid(60374011c4699ed439d515d67fe80bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Gun_01.prefab using Guid(60374011c4699ed439d515d67fe80bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a9dcebf9d43aa9888ca33a13261c62') in 0.024706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Barrels_01.prefab
+  artifactKey: Guid(02698ac85a89eb04f858a29b3891b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Barrels_01.prefab using Guid(02698ac85a89eb04f858a29b3891b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba8a9f314ad3d2c7a2d133c04e7dd3') in 0.022707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(08fa080060d162343b94ac13ffbe8f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Pirate_Attachments.prefab using Guid(08fa080060d162343b94ac13ffbe8f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b32e4a69cbd840c2cef7192e6b1ace') in 0.023076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Barrel_01.prefab
+  artifactKey: Guid(7c961025c06bed9448a821af0df91678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Extra_Barrel_01.prefab using Guid(7c961025c06bed9448a821af0df91678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65af84df8ac091cfc01bd9774823891') in 0.020133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_03.prefab
+  artifactKey: Guid(18684b1d1c03a6f43bf9bd10257fc7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_03.prefab using Guid(18684b1d1c03a6f43bf9bd10257fc7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b9f5002f6d26f2dff3b5389b57f89e') in 0.023201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull_Attachments.prefab
+  artifactKey: Guid(e3e9d09d9323c334dac1a53a409fa1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull_Attachments.prefab using Guid(e3e9d09d9323c334dac1a53a409fa1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd992dec9e3427249473922aa223d7875') in 0.019200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull_Attachments.prefab
+  artifactKey: Guid(9d5b13edea1092d4e9bd42c283067998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull_Attachments.prefab using Guid(9d5b13edea1092d4e9bd42c283067998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb1d1638e60755b3f301498fe0b6b48') in 0.022413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull.prefab
+  artifactKey: Guid(0961be66582a8714db9e751ce4630aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull.prefab using Guid(0961be66582a8714db9e751ce4630aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdba65e78c097b6b7faf056bb4f3fb4') in 0.025459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Spanish_01.prefab
+  artifactKey: Guid(e6c2f5f4a1f88304493b7ddff97dcc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Spanish_01.prefab using Guid(e6c2f5f4a1f88304493b7ddff97dcc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57c5b4c33c19abd4ddff76c93730256') in 0.020875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull.prefab
+  artifactKey: Guid(f997b4da461b427448692385e302007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull.prefab using Guid(f997b4da461b427448692385e302007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d18defa80e5f7b597155ec1dec14055') in 0.026101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull_Pirate_Attachments.prefab using Guid(e7ce8fa5a49d9f9429ad31f4144cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ed12c03cbbc7898d7416aa669c54c') in 0.031106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Attachments.prefab
+  artifactKey: Guid(dbc3416fef5328d439703987c11a9cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Attachments.prefab using Guid(dbc3416fef5328d439703987c11a9cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b6046f17c215ccb6ee0afae17a94c5') in 0.023748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull.prefab
+  artifactKey: Guid(a57d219dfbf573148919563ede30982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull.prefab using Guid(a57d219dfbf573148919563ede30982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdf6f5464e1798b76425fa5ece8bef8') in 0.022248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate.prefab
+  artifactKey: Guid(ca514cb9ea5a00b499f879bd90a9aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate.prefab using Guid(ca514cb9ea5a00b499f879bd90a9aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2ded4ebb6f633df2632afb6d9cf04c') in 0.024947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_02.prefab
+  artifactKey: Guid(ad75a0e63b46d8d438738423a74e797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_02.prefab using Guid(ad75a0e63b46d8d438738423a74e797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e2f16ec7fb2edb5bc7961bd3bd31d4') in 0.024371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate.prefab
+  artifactKey: Guid(2ca27c5c2edad5e42a11807acb7a0844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate.prefab using Guid(2ca27c5c2edad5e42a11807acb7a0844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401a93da1970e97816df62a519cac751') in 0.040131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Pirate.prefab
+  artifactKey: Guid(ef94ea0131455ed4cbdd3b8edf856594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Pirate.prefab using Guid(ef94ea0131455ed4cbdd3b8edf856594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea94ac75d3c7bdc605b51abd9f3fe8f6') in 0.028061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(e8f7a726f3bf5914887ea1bc9bcb701e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull_Pirate_Attachments.prefab using Guid(e8f7a726f3bf5914887ea1bc9bcb701e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e1f61cfc4aa0b37d0bfd6961622b91') in 0.023488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Bare.prefab
+  artifactKey: Guid(831807539d583624fbfff3c147b19906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Bare.prefab using Guid(831807539d583624fbfff3c147b19906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f20ba9d6f9c9dc7df0082a74ac291f8') in 0.033975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull.prefab
+  artifactKey: Guid(e87bf632e58223940b2a56c89b15c4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull.prefab using Guid(e87bf632e58223940b2a56c89b15c4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6a4dbdfb981ab81d1c8c906f2cf244') in 0.028029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_04.prefab
+  artifactKey: Guid(cd7ed245816409a44abb8ad454d68f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Flag_Pirate_04.prefab using Guid(cd7ed245816409a44abb8ad454d68f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e81fcfd3ebbaa3b77489c5de21392f5') in 0.036943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull_Pirate.prefab
+  artifactKey: Guid(3b88eec1c970d094294a2bb50eab311d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull_Pirate.prefab using Guid(3b88eec1c970d094294a2bb50eab311d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ad5c19e27baaa8564fb6ce9eb75dc') in 0.022435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull_Attachments.prefab
+  artifactKey: Guid(0d71d30c9fed80c44b9d25ec8f50c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull_Attachments.prefab using Guid(0d71d30c9fed80c44b9d25ec8f50c8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9734fc53a6a1f843bebe48ca64b251') in 0.033894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull_Pirate.prefab
+  artifactKey: Guid(a214d3d69712d434b9392b0f6b8f92c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Rowing_01_Hull_Pirate.prefab using Guid(a214d3d69712d434b9392b0f6b8f92c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b40e85bc71adfd29344b64779816daf') in 0.031329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized.prefab
+  artifactKey: Guid(aa8432d52325aa74685b2677529486b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized.prefab using Guid(aa8432d52325aa74685b2677529486b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ccf61a066180b9d9ba29e36ea64511') in 0.044088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull_Pirate.prefab
+  artifactKey: Guid(98623ce8d34f75e4a9336156075cac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Veh_Boat_Large_01_Hull_Pirate.prefab using Guid(98623ce8d34f75e4a9336156075cac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd425cb987401685ad8b1f37de97cf26a') in 0.027582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Bare.prefab
+  artifactKey: Guid(00f2a498c7e05f64ca529c8b767d9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Bare.prefab using Guid(00f2a498c7e05f64ca529c8b767d9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f87e948231bf1f2151531b49ce358d0') in 0.040992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.358646 seconds.
+  path: Assets/Polygon Pirates
+  artifactKey: Guid(b48bb4483a2f2d04b90a4c6a38518ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates using Guid(b48bb4483a2f2d04b90a4c6a38518ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820294aeb4bbc3d3c501d7abbc47dd66') in 0.379827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.556782 seconds.
+  path: Assets/Polygon SciFi Space
+  artifactKey: Guid(5778badc3bc98ce4eac4859dc05a97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon SciFi Space using Guid(5778badc3bc98ce4eac4859dc05a97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f280c94eb1e94395b2442198af7a6f') in 0.009050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391029 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(9bc70792df42c5540a10d145a48c80a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(9bc70792df42c5540a10d145a48c80a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98725f1ae75e6b5dbd662921db78d7ce') in 0.008014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.962409 seconds.
+  path: Assets/Polygon Zombies
+  artifactKey: Guid(29cb1515d8ca6a5418d860d98c96384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Zombies using Guid(29cb1515d8ca6a5418d860d98c96384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f1129c21e147f3a325a506a669db8e') in 0.008287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.704791 seconds.
+  path: Assets/Prefabes
+  artifactKey: Guid(d8d272ce0091a92438b328758fbd5321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes using Guid(d8d272ce0091a92438b328758fbd5321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a418e44b7954f983ea4d2f4f29e79cb0') in 0.006097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220.758416 seconds.
+  path: Assets/Prefabes/Sea
+  artifactKey: Guid(59237550ae452fb4d92c840867da6c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes/Sea using Guid(59237550ae452fb4d92c840867da6c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8aa6daf604fe3ed79ca18bd1132350') in 0.005622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.222089 seconds.
+  path: Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull.prefab
+  artifactKey: Guid(0961be66582a8714db9e751ce4630aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Pirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull.prefab using Guid(0961be66582a8714db9e751ce4630aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c531fb7a595ea16409c5cac8b3cdb14f') in 0.018216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.073771 seconds.
+  path: Assets/Prefabes/Sea/SM_Veh_Veh_Boat_Large_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(079993699786a2b45b6e4fa3da1e0df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes/Sea/SM_Veh_Veh_Boat_Large_01_Hull_Pirate_Attachments.prefab using Guid(079993699786a2b45b6e4fa3da1e0df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee36be1976002fe8b00246adbcac182a') in 0.086691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.039167 seconds.
+  path: Assets/Prefabes/Sea/SM_Veh_Boat_Medium_01_Hull_Attachments.prefab
+  artifactKey: Guid(1a95445fa00195842be347e84fc7e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes/Sea/SM_Veh_Boat_Medium_01_Hull_Attachments.prefab using Guid(1a95445fa00195842be347e84fc7e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed3c43eef3cd5efd88a44cf16d772e2') in 0.102029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.453841 seconds.
+  path: Assets/Prefabes/Sea/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments 1.prefab
+  artifactKey: Guid(3f5d37ad4f39dc1499dfad50179c1b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes/Sea/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments 1.prefab using Guid(3f5d37ad4f39dc1499dfad50179c1b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0771d3b12f50651742ea4eed66b6fa9d') in 0.114393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.407805 seconds.
+  path: Assets/Prefabes/Sea/SM_Veh_Boat_Warship_01_Hull_Attachments 1.prefab
+  artifactKey: Guid(1c06f9775581f024da0b53431aaa02ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes/Sea/SM_Veh_Boat_Warship_01_Hull_Attachments 1.prefab using Guid(1c06f9775581f024da0b53431aaa02ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3d086e12bb97c4831a94b68943768c') in 0.146311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.884589 seconds.
+  path: Assets/Prefabes/Sea/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments 1 1.prefab
+  artifactKey: Guid(22438fc6e31f0264f951d73388af7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabes/Sea/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments 1 1.prefab using Guid(22438fc6e31f0264f951d73388af7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b0671e396c1dd9d5971e19cde9cbf6') in 0.069457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 337.531179 seconds.
+  path: Assets/Prefabs/Sea/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(e5be0dd9871216e48b23f27f2c367bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sea/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments.prefab using Guid(e5be0dd9871216e48b23f27f2c367bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8200a6800ce118364247b6a1478a2a') in 0.119630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.590877 seconds.
+  path: Assets/Prefabs/Sea/SM_Veh_Boat_Warship_01_Hull_Attachments.prefab
+  artifactKey: Guid(454568a335325654390889d505be17ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sea/SM_Veh_Boat_Warship_01_Hull_Attachments.prefab using Guid(454568a335325654390889d505be17ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a89be2274d1ef7c4c4ae5ed81fbe5b') in 0.125347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.645690 seconds.
+  path: Assets/Prefabs/Sea/SM_Veh_Boat_Medium_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(a2fdc115efccf8848a2cc8324d350274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sea/SM_Veh_Boat_Medium_01_Hull_Pirate_Attachments.prefab using Guid(a2fdc115efccf8848a2cc8324d350274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215b82906339bd63a15cacf3f04d3327') in 0.121718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.264102 seconds.
+  path: Assets/Prefabs/Sea/SM_Veh_Boat_Medium_01_Hull_Attachments.prefab
+  artifactKey: Guid(1a95445fa00195842be347e84fc7e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sea/SM_Veh_Boat_Medium_01_Hull_Attachments.prefab using Guid(1a95445fa00195842be347e84fc7e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a059c0773cc7ba0d55a7c881ac919f7') in 0.021287 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
